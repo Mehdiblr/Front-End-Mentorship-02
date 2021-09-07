@@ -1,0 +1,109 @@
+form#form {
+  width: 90%;
+  margin: 15px auto;
+}
+
+form#form ul#register-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #E5EEF3;
+  border-radius: 10px;
+  padding: 12px 8px;
+}
+
+form#form ul#register-form li {
+  list-style: none;
+  padding-top: 12px;
+  width: 100%;
+}
+
+form#form ul#register-form li label {
+  width: 100%;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+form#form ul#register-form li label span {
+  font-weight: 100;
+}
+
+form#form ul#register-form li input[type=text], form#form ul#register-form li input[type=email], form#form ul#register-form li input[type=date] {
+  border: 0;
+  width: 100%;
+  outline: none;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 8px 0;
+}
+
+form#form ul#register-form li .radio-btn {
+  display: inline-block;
+  width: 49%;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+form#form ul#register-form li .gender-type {
+  width: 20%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px;
+  display: inline-block;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+form#form ul#register-form li .gender-type label {
+  width: unset;
+}
+
+form#form ul#register-form li button {
+  outline: 0;
+  padding: 8px;
+  border: none;
+  background-color: cadetblue;
+  border-radius: 9px;
+  color: white;
+  width: 20%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+form#form ul#register-form li button:hover {
+  width: 55%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+form#form ul#register-form .center-align {
+  text-align: center;
+}
+
+form#form ul#register-form input[type=checkbox] {
+  vertical-align: middle;
+}
+
+form#form ul#register-form p.conditions {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */

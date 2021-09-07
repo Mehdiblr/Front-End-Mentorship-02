@@ -1,0 +1,96 @@
+// Variables
+$mainColor: #E5EEF3;
+$sameColor: #B7FFE2;
+$fontColor1:#545479;
+$fontColor2: #4B635E;
+$fontColor3:#034039;
+
+// Functions
+
+
+//Custom Csses are here
+
+form#form{
+    width: 90%;
+    margin: 15px auto;
+    
+    ul#register-form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: $mainColor;
+        border-radius: 10px;
+        padding: 12px 8px;
+        li{
+            list-style: none;
+            padding-top: 12px;
+            width: 100%;
+            label{
+                width: 100%;
+                display: inline-block;
+                font-weight: bold;
+                font-size: 1.5rem;
+                span{
+                    font-weight: 100;
+                }
+            }
+            input[type=text],input[type=email],input[type=date]{
+                border: 0;
+                width: 100%;
+                outline: none;
+                padding: 6px;
+                border-radius: 3px;
+                margin: 8px 0;
+
+            }
+            .radio-btn{
+                display: inline-block;
+                width: 49%;
+                padding: 0;
+                margin: 0;
+                vertical-align: bottom;
+            }
+            .gender-type{
+                width: 20%;
+                background-color: white;
+                padding: 10px;
+                border-radius: 5px;
+                margin: 8px;
+                display: inline-block;
+                transition: all 1s;
+                label{
+                    width: unset;
+                }
+            }
+
+            button{
+                outline: 0;
+                padding: 8px;
+                border: none;
+                background-color: cadetblue;
+                border-radius: 9px;
+                color: white;
+                width: 20%;
+                transition: all 1s;
+            }button:hover{
+                width: 55%;
+                transition: all 1s;
+
+            }
+        }
+        .center-align{
+            text-align: center;
+        }
+        input[type=checkbox]{
+            vertical-align: middle;
+        }
+        p.conditions{
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+}
